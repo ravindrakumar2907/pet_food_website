@@ -112,9 +112,16 @@
     }
 }
 
-.hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
-    background-size: cover;
+
+
+/* This is for Hero imahe to hide on small screen and dislay on big screen*/
+@media (min-width: 769px) {
+
+    /* Styles here apply to screens 769px wide or larger */
+    .hero-header {
+        background: url(../img/hero.jpg) top right no-repeat;
+        background-size: cover;
+    }
 }
 
 .btn-play {
